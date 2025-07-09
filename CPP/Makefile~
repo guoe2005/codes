@@ -1,0 +1,2 @@
+main.o: hello.cpp
+	g++ hello.cpp -o main.o
