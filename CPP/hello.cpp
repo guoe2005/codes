@@ -3,9 +3,8 @@ using namespace std;
 
 int main()
 {
-    cout << "请输入你的名字：\n";
-    string yourname;
-    cin >> yourname;
-    cout << "你好，" << name << "！\n";
-    return 0;
+
+  float a = 9.1;
+  cout << (int)a << endl;
+    
 }
