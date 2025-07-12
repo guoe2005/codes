@@ -2,8 +2,7 @@
 using namespace std;
 int main()
 {
-
-  float a = 9.1;
-  cout << (int)a << endl;
-    
+  typedef enum {kPieceTypeKing, kPieceTypeQueen, kPieceTypeRok, kPieceTypePawn } PieceT;
+  PieceT myPiece;
+  myPiece = 0;
 }
