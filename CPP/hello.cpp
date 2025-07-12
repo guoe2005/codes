@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
-  typedef enum {kPieceTypeKing = 0, kPieceTypeQueen, kPieceTypeRok = 10, kPieceTypePawn } PieceT;
-  PieceT myPiece;
-  myPiece = 0;
-  
+   enum class MyEnum {
+     EnumValue1,
+     EnumValue2 = 10,
+     EnumValue3
+   };
 }
