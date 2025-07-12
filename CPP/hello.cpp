@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-  typedef enum {kPieceTypeKing, kPieceTypeQueen, kPieceTypeRok, kPieceTypePawn } PieceT;
+  typedef enum {kPieceTypeKing = 0, kPieceTypeQueen, kPieceTypeRok, kPieceTypePawn } PieceT;
   PieceT myPiece;
   myPiece = 0;
+  
 }
