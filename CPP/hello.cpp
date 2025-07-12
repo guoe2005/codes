@@ -7,4 +7,5 @@ int main()
      EnumValue2 = 10,
      EnumValue3
    };
+   if (MyEnum::EnumValue3 == 11) {...}
 }
