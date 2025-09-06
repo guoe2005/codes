@@ -1,7 +1,10 @@
 #include <iostream>
-#include "employeestruct.h"
 using namespace std;
+
 int main()
 {
-  //三种语句
+  double x,y,area;
+  cin >> x >> y ;
+  area = x * y ;
+  cout << "area is " << area;
 }
