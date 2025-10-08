@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamFilterDemo",
+            "request": "launch",
+            "mainClass": "StreamFilterDemo",
+            "projectName": "codes_5ef0b7d8"
+        },
+        {
+            "type": "java",
+            "name": "StreamFilterDemo",
+            "request": "launch",
+            "mainClass": "com.demo.StreamFilterDemo",
+            "projectName": "codes_5ef0b7d8"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
